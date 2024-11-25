@@ -1,0 +1,88 @@
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-theme {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: bacground-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Contenedor de las pestañas */
+  .tabs {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Botones de pestañas */
+  .tab-buttons {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Estilo para la pestaña activa */
+  .tab-button.active {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid #007BFF;
+  }
+  
+  /* Contenido de las pestañas */
+  .tab-content {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .tab-panel {
+    display: none;
+  }
+  
+  /* Mostrar contenido activo */
+  .tab-panel.active {
+    display: block;
+  }
+  
